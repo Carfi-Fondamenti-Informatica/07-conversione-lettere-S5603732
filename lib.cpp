@@ -2,7 +2,7 @@
 
 bool lettere( char b=0) {
     int i=0;
-    char a[51];
+    char a[52];
     bool v = true, f = false;
 
     a[0] = 'a';
@@ -13,7 +13,7 @@ bool lettere( char b=0) {
     }
     a[26] = 'A';
     risultato = 'A';
-    for ( i = 27; i < 51; i++) {
+    for ( i = 27; i < 52; i++) {
         risultato++;
         a[i] = risultato;
     }
