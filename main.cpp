@@ -9,9 +9,8 @@ int main(){
    char c=b-32;
    char d=b+32;
    if (lettere(b)==true) {
-       cout << "vero" << endl;
        if(b>='a') cout << c ;
        else cout << d;
-   }else cout << "falso";
+   }else cout << "errore";
   return 0;
 }
